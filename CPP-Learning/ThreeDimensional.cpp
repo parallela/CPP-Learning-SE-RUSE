@@ -10,7 +10,7 @@ int main() {
                     {{7,8}, {9,10},{11,12}}
             };
 
-    cout << x[0][1][1] << endl;
+    cout << x[0][1][1] << endl; // Output: 3 (get the first table, second column, second row)
 
 
 // Display all of the three dimensional array

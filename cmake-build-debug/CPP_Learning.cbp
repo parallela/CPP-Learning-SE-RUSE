@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/ThreeDimensional.cpp">
+		<Unit filename="C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/Pointers.cpp">
 			<Option target="CPP_Learning"/>
 		</Unit>
 		<Unit filename="C:/Users/lubom/source/repos/CPP-Learning/CMakeLists.txt">

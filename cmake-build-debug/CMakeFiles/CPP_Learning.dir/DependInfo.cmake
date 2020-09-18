@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/ThreeDimensional.cpp" "C:/Users/lubom/source/repos/CPP-Learning/cmake-build-debug/CMakeFiles/CPP_Learning.dir/CPP-Learning/ThreeDimensional.cpp.obj"
+  "C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/Pointers.cpp" "C:/Users/lubom/source/repos/CPP-Learning/cmake-build-debug/CMakeFiles/CPP_Learning.dir/CPP-Learning/Pointers.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
