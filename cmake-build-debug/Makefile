@@ -127,32 +127,32 @@ CPP_Learning\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\build
 .PHONY : CPP_Learning\fast
 
-CPP-Learning\CPP-Learning.obj: CPP-Learning\CPP-Learning.cpp.obj
+CPP-Learning\ThreeDimensional.obj: CPP-Learning\ThreeDimensional.cpp.obj
 
-.PHONY : CPP-Learning\CPP-Learning.obj
+.PHONY : CPP-Learning\ThreeDimensional.obj
 
 # target to build an object file
-CPP-Learning\CPP-Learning.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.obj
-.PHONY : CPP-Learning\CPP-Learning.cpp.obj
+CPP-Learning\ThreeDimensional.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\ThreeDimensional.cpp.obj
+.PHONY : CPP-Learning\ThreeDimensional.cpp.obj
 
-CPP-Learning\CPP-Learning.i: CPP-Learning\CPP-Learning.cpp.i
+CPP-Learning\ThreeDimensional.i: CPP-Learning\ThreeDimensional.cpp.i
 
-.PHONY : CPP-Learning\CPP-Learning.i
+.PHONY : CPP-Learning\ThreeDimensional.i
 
 # target to preprocess a source file
-CPP-Learning\CPP-Learning.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.i
-.PHONY : CPP-Learning\CPP-Learning.cpp.i
+CPP-Learning\ThreeDimensional.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\ThreeDimensional.cpp.i
+.PHONY : CPP-Learning\ThreeDimensional.cpp.i
 
-CPP-Learning\CPP-Learning.s: CPP-Learning\CPP-Learning.cpp.s
+CPP-Learning\ThreeDimensional.s: CPP-Learning\ThreeDimensional.cpp.s
 
-.PHONY : CPP-Learning\CPP-Learning.s
+.PHONY : CPP-Learning\ThreeDimensional.s
 
 # target to generate assembly for a file
-CPP-Learning\CPP-Learning.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.s
-.PHONY : CPP-Learning\CPP-Learning.cpp.s
+CPP-Learning\ThreeDimensional.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\ThreeDimensional.cpp.s
+.PHONY : CPP-Learning\ThreeDimensional.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPP_Learning
-	@echo ... CPP-Learning/CPP-Learning.obj
-	@echo ... CPP-Learning/CPP-Learning.i
-	@echo ... CPP-Learning/CPP-Learning.s
+	@echo ... CPP-Learning/ThreeDimensional.obj
+	@echo ... CPP-Learning/ThreeDimensional.i
+	@echo ... CPP-Learning/ThreeDimensional.s
 .PHONY : help
 
 
