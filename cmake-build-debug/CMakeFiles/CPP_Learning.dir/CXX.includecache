@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/Test.cpp
-Test.h
-C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/Test.h
-
-C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/Test.h
+C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/CPP-Learning.cpp
 iostream
+-
+stdlib.h
+-
+conio.h
 -
 

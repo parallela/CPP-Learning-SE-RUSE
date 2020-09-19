@@ -127,32 +127,32 @@ CPP_Learning\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\build
 .PHONY : CPP_Learning\fast
 
-CPP-Learning\Test.obj: CPP-Learning\Test.cpp.obj
+CPP-Learning\CPP-Learning.obj: CPP-Learning\CPP-Learning.cpp.obj
 
-.PHONY : CPP-Learning\Test.obj
+.PHONY : CPP-Learning\CPP-Learning.obj
 
 # target to build an object file
-CPP-Learning\Test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.obj
-.PHONY : CPP-Learning\Test.cpp.obj
+CPP-Learning\CPP-Learning.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.obj
+.PHONY : CPP-Learning\CPP-Learning.cpp.obj
 
-CPP-Learning\Test.i: CPP-Learning\Test.cpp.i
+CPP-Learning\CPP-Learning.i: CPP-Learning\CPP-Learning.cpp.i
 
-.PHONY : CPP-Learning\Test.i
+.PHONY : CPP-Learning\CPP-Learning.i
 
 # target to preprocess a source file
-CPP-Learning\Test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.i
-.PHONY : CPP-Learning\Test.cpp.i
+CPP-Learning\CPP-Learning.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.i
+.PHONY : CPP-Learning\CPP-Learning.cpp.i
 
-CPP-Learning\Test.s: CPP-Learning\Test.cpp.s
+CPP-Learning\CPP-Learning.s: CPP-Learning\CPP-Learning.cpp.s
 
-.PHONY : CPP-Learning\Test.s
+.PHONY : CPP-Learning\CPP-Learning.s
 
 # target to generate assembly for a file
-CPP-Learning\Test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.s
-.PHONY : CPP-Learning\Test.cpp.s
+CPP-Learning\CPP-Learning.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.s
+.PHONY : CPP-Learning\CPP-Learning.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPP_Learning
-	@echo ... CPP-Learning/Test.obj
-	@echo ... CPP-Learning/Test.i
-	@echo ... CPP-Learning/Test.s
+	@echo ... CPP-Learning/CPP-Learning.obj
+	@echo ... CPP-Learning/CPP-Learning.i
+	@echo ... CPP-Learning/CPP-Learning.s
 .PHONY : help
 
 

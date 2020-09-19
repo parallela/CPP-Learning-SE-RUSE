@@ -61,33 +61,33 @@ include CMakeFiles\CPP_Learning.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\CPP_Learning.dir\flags.make
 
-CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.obj: CMakeFiles\CPP_Learning.dir\flags.make
-CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.obj: ..\CPP-Learning\Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lubom\source\repos\CPP-Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Learning.dir/CPP-Learning/Test.cpp.obj"
+CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.obj: CMakeFiles\CPP_Learning.dir\flags.make
+CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.obj: ..\CPP-Learning\CPP-Learning.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lubom\source\repos\CPP-Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Learning.dir/CPP-Learning/CPP-Learning.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.obj /FdCMakeFiles\CPP_Learning.dir\ /FS -c C:\Users\lubom\source\repos\CPP-Learning\CPP-Learning\Test.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.obj /FdCMakeFiles\CPP_Learning.dir\ /FS -c C:\Users\lubom\source\repos\CPP-Learning\CPP-Learning\CPP-Learning.cpp
 <<
 
-CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Learning.dir/CPP-Learning/Test.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lubom\source\repos\CPP-Learning\CPP-Learning\Test.cpp
+CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Learning.dir/CPP-Learning/CPP-Learning.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lubom\source\repos\CPP-Learning\CPP-Learning\CPP-Learning.cpp
 <<
 
-CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Learning.dir/CPP-Learning/Test.cpp.s"
+CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Learning.dir/CPP-Learning/CPP-Learning.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.s /c C:\Users\lubom\source\repos\CPP-Learning\CPP-Learning\Test.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.s /c C:\Users\lubom\source\repos\CPP-Learning\CPP-Learning\CPP-Learning.cpp
 <<
 
 # Object files for target CPP_Learning
 CPP_Learning_OBJECTS = \
-"CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.obj"
+"CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.obj"
 
 # External object files for target CPP_Learning
 CPP_Learning_EXTERNAL_OBJECTS =
 
-CPP_Learning.exe: CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.obj
+CPP_Learning.exe: CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.obj
 CPP_Learning.exe: CMakeFiles\CPP_Learning.dir\build.make
 CPP_Learning.exe: CMakeFiles\CPP_Learning.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\lubom\source\repos\CPP-Learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CPP_Learning.exe"

@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/Test.cpp">
+		<Unit filename="C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/CPP-Learning.cpp">
 			<Option target="CPP_Learning"/>
 		</Unit>
 		<Unit filename="C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/Test.h">
