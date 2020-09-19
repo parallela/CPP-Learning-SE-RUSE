@@ -127,32 +127,32 @@ CPP_Learning\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\build
 .PHONY : CPP_Learning\fast
 
-CPP-Learning\Pointers.obj: CPP-Learning\Pointers.cpp.obj
+CPP-Learning\Test.obj: CPP-Learning\Test.cpp.obj
 
-.PHONY : CPP-Learning\Pointers.obj
+.PHONY : CPP-Learning\Test.obj
 
 # target to build an object file
-CPP-Learning\Pointers.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\Pointers.cpp.obj
-.PHONY : CPP-Learning\Pointers.cpp.obj
+CPP-Learning\Test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.obj
+.PHONY : CPP-Learning\Test.cpp.obj
 
-CPP-Learning\Pointers.i: CPP-Learning\Pointers.cpp.i
+CPP-Learning\Test.i: CPP-Learning\Test.cpp.i
 
-.PHONY : CPP-Learning\Pointers.i
+.PHONY : CPP-Learning\Test.i
 
 # target to preprocess a source file
-CPP-Learning\Pointers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\Pointers.cpp.i
-.PHONY : CPP-Learning\Pointers.cpp.i
+CPP-Learning\Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.i
+.PHONY : CPP-Learning\Test.cpp.i
 
-CPP-Learning\Pointers.s: CPP-Learning\Pointers.cpp.s
+CPP-Learning\Test.s: CPP-Learning\Test.cpp.s
 
-.PHONY : CPP-Learning\Pointers.s
+.PHONY : CPP-Learning\Test.s
 
 # target to generate assembly for a file
-CPP-Learning\Pointers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\Pointers.cpp.s
-.PHONY : CPP-Learning\Pointers.cpp.s
+CPP-Learning\Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\Test.cpp.s
+.PHONY : CPP-Learning\Test.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPP_Learning
-	@echo ... CPP-Learning/Pointers.obj
-	@echo ... CPP-Learning/Pointers.i
-	@echo ... CPP-Learning/Pointers.s
+	@echo ... CPP-Learning/Test.obj
+	@echo ... CPP-Learning/Test.i
+	@echo ... CPP-Learning/Test.s
 .PHONY : help
 
 
