@@ -7,10 +7,25 @@ using namespace std;
 #include <vector>
 
 int main() {
-    vector<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    sort(numbers.begin(), numbers.end());
+    string Text = "HELLO";
+    transform(Text.begin(), Text.end(), Text.begin(), ::tolower);
 
-    cout << numbers[0] + numbers[1] << endl;
+    string temp = Text;
+
+    vector <string> WaveVector = {};
+
+
+    for (int i = 0; i < Text.size(); ++i) {
+        if (Text[i] == ' ') continue;
+        temp[i] = toupper(temp[i]);
+        WaveVector.push_back(temp);
+        cout << temp << endl;
+        temp = Text;
+    }
+
+//    for (int i = 0; i < WaveVector.size(); ++i) {
+//        cout << WaveVector[i] << endl;
+//    }
 
 
     return 0;
