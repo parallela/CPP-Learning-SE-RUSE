@@ -17,15 +17,17 @@ int main() {
         if (chisla[i] == 0) {
             nulevi_stoinosti += 1;
         }
-        if (chisla[i] % 2 == 0) {
+        if (chisla[i] % 2 == 0 && chisla[i] != 0) {
             chetni_chisla.push_back(chisla[i]);
-        } else {
+        } else if (chisla[i] != 0 && chisla[i] % 2 != 0) {
             nechetni_chisla.push_back(chisla[i]);
         }
 
     }
 
-    cout << chetni_chisla.size() << " " << nechetni_chisla.size() << " " << nulevi_stoinosti;
+    for (int i = 0; i < nechetni_chisla.size(); ++i) {
+        cout << nechetni_chisla[i] << endl;
+    }
 
     return 0;
 }
