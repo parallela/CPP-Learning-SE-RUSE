@@ -7,19 +7,25 @@ using namespace std;
 #include <vector>
 
 int main() {
-    string str = "my cat is cat fat";
+    vector<int> chisla = {2, 1, 4, 5, 6, 7, 8, 0, 0};
+    vector<int> chetni_chisla = {};
+    vector<int> nechetni_chisla = {};
+    int nulevi_stoinosti = 0;
 
-    istringstream ss(str);
-    unordered_set <string> hsh;
 
-    do {
-        string word;
-        ss >> word;
-
-        while (hsh.find(word) == hsh.end()) {
-            cout << word << " ";
-            hsh.insert(word);
+    for (int i = 0; i < chisla.size(); ++i) {
+        if (chisla[i] == 0) {
+            nulevi_stoinosti += 1;
         }
-    } while (ss);
+        if (chisla[i] % 2 == 0) {
+            chetni_chisla.push_back(chisla[i]);
+        } else {
+            nechetni_chisla.push_back(chisla[i]);
+        }
+
+    }
+
+    cout << chetni_chisla.size() << " " << nechetni_chisla.size() << " " << nulevi_stoinosti;
+
     return 0;
 }
