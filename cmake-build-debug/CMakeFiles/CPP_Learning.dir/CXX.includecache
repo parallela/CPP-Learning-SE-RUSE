@@ -9,12 +9,6 @@
 C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/CPP-Learning.cpp
 iostream
 -
-algorithm
--
-sstream
--
-unordered_set
--
-vector
+windows.h
 -
 
