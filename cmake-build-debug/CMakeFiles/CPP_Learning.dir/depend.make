@@ -3,3 +3,5 @@
 
 CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.obj: ..\CPP-Learning\CPP-Learning.cpp
 
+CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning2.cpp.obj: ..\CPP-Learning\CPP-Learning2.cpp
+

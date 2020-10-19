@@ -85,6 +85,9 @@
 		<Unit filename="C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/CPP-Learning.cpp">
 			<Option target="CPP_Learning"/>
 		</Unit>
+		<Unit filename="C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/CPP-Learning2.cpp">
+			<Option target="CPP_Learning"/>
+		</Unit>
 		<Unit filename="C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/Test.h">
 			<Option target="CPP_Learning"/>
 		</Unit>

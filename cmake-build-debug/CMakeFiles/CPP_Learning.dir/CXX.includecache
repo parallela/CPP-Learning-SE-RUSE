@@ -9,6 +9,8 @@
 C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/CPP-Learning.cpp
 iostream
 -
-windows.h
+stdlib.h
+-
+cmath
 -
 

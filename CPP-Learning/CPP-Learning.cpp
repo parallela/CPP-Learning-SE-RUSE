@@ -1,49 +1,33 @@
+#include <iostream>
+#include <stdlib.h>
+#include <cmath>
+
 using namespace std;
 
-#include <iostream>
-#include<windows.h>
-
-bool nameri_tochkata(int x1, int y1, int x2, int y2, int x, int y) {
-
-    // Проверяване дали точката лежи в/у триъгълника.
-    if (x > x1 && x < x2 && y > y1 && y < y2) {
-        return true;
-    }
-
-    return false;
-}
-
 int main() {
-    // Промяна на encoding-а на конзолата
-    SetConsoleOutputCP(1251);
-    SetConsoleCP(1251);
+    int n;
+    float px, py, suma = 0, x[10], y[10];
 
-    // Иниц.. на променливите
-    int x1 = 0, y1 = 0, x2 = 0, y2 = 0, x, y;
+    cout << "Enter N: " << endl;
+    cin >> n;
 
-    // Въвеждане на долните и горните леви и десни ъгли на правоъгълника.
-    cout << "Въведи x1: ";
-    cin >> x1;
-    cout << "Въведи y1: ";
-    cin >> y1;
-    cout << "Въведи x2: ";
-    cin >> x2;
-    cout << "Въведи y2: ";
-    cin >> y2;
-
-
-    // Въвеждане на точката
-    cout << "Въведи x: ";
-    cin >> x;
-    cout << "Въведи y: ";
-    cin >> y;
-
-    // Проверяване на точката според кординатите на тригълника
-    if (nameri_tochkata(x1, y1, x2, y2, x, y)) {
-        cout << "Точката лежи в правоъгалника (Da) \n";
-    } else {
-        cout << "Точката не лежи в правоъгалника (Ne)\n";
+    for (int i = 0; i < n; ++i) {
+        cout << i + 1 << "." << endl;
+        cout << "x = ";
+        cin >> x[i];
+        cout << "y = ";
+        cin >> y[i];
     }
+
+
+    for (int i = 0; i < n - 1; ++i) {
+        px = x[i + 1] - x[i];
+        py = y[i + 1] - y[i];
+        suma = sqrt(px * px + py * py);
+    }
+
+    cout << suma << endl;
+
 
     return 0;
 }

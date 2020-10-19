@@ -154,6 +154,33 @@ CPP-Learning\CPP-Learning.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning.cpp.s
 .PHONY : CPP-Learning\CPP-Learning.cpp.s
 
+CPP-Learning\CPP-Learning2.obj: CPP-Learning\CPP-Learning2.cpp.obj
+
+.PHONY : CPP-Learning\CPP-Learning2.obj
+
+# target to build an object file
+CPP-Learning\CPP-Learning2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning2.cpp.obj
+.PHONY : CPP-Learning\CPP-Learning2.cpp.obj
+
+CPP-Learning\CPP-Learning2.i: CPP-Learning\CPP-Learning2.cpp.i
+
+.PHONY : CPP-Learning\CPP-Learning2.i
+
+# target to preprocess a source file
+CPP-Learning\CPP-Learning2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning2.cpp.i
+.PHONY : CPP-Learning\CPP-Learning2.cpp.i
+
+CPP-Learning\CPP-Learning2.s: CPP-Learning\CPP-Learning2.cpp.s
+
+.PHONY : CPP-Learning\CPP-Learning2.s
+
+# target to generate assembly for a file
+CPP-Learning\CPP-Learning2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Learning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP_Learning.dir\CPP-Learning\CPP-Learning2.cpp.s
+.PHONY : CPP-Learning\CPP-Learning2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -166,6 +193,9 @@ help:
 	@echo ... CPP-Learning/CPP-Learning.obj
 	@echo ... CPP-Learning/CPP-Learning.i
 	@echo ... CPP-Learning/CPP-Learning.s
+	@echo ... CPP-Learning/CPP-Learning2.obj
+	@echo ... CPP-Learning/CPP-Learning2.i
+	@echo ... CPP-Learning/CPP-Learning2.s
 .PHONY : help
 
 
