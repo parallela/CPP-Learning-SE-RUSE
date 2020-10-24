@@ -1,32 +1,45 @@
 #include <iostream>
-#include <stdlib.h>
 #include <cmath>
 
 using namespace std;
 
 int main() {
-    int n;
-    float px, py, suma = 0, x[10], y[10];
+    float x[10], y[10], n, r, a;
 
-    cout << "Enter N: " << endl;
+    system("chcp 1251");
+
+    cout << "Vuvedete broi tochki: ";
     cin >> n;
+    // Радиуса на кръга
+    cout << "R: ";
+    cin >> r;
+
+    // Абсциса
+    cout << "A: ";
+    cin >> a;
 
     for (int i = 0; i < n; ++i) {
-        cout << i + 1 << "." << endl;
-        cout << "x = ";
+        // Въвеждаме брой точките
+        cout << "Vuvedi " << i + 1 << "a tochka" << endl;
+        cout << "x: ";
         cin >> x[i];
-        cout << "y = ";
+        cout << "y: ";
         cin >> y[i];
+
+        /*
+         * Проверяване дали предишните точки са същите като предишните
+         */
+        if (x[i] == x[i - 1] && y[i] == y[i - 1]) {
+            cout << "Predishnata tochka e edna i sushta s tazi" << endl;
+            break;
+        }
     }
-
-
-    for (int i = 0; i < n - 1; ++i) {
-        px = x[i + 1] - x[i];
-        py = y[i + 1] - y[i];
-        suma = sqrt(px * px + py * py);
+    // fabs();
+    for (int i = 0; i < n; ++i) {
+        if (fabs(x[i]) <= a && fabs(x[i]) < r && fabs(y[i]) < r && fabs(y[i]) <= a) {
+            cout << "Tochka " << i + 1 << " e v tazi oblast" << endl;
+        }
     }
-
-    cout << suma << endl;
 
 
     return 0;
