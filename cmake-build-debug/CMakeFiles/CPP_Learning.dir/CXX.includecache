@@ -7,8 +7,8 @@
 #IncludeRegexTransform: 
 
 C:/Users/lubom/source/repos/CPP-Learning/CPP-Learning/CPP-Learning.cpp
-iostream
+stdlib.h
 -
-cmath
+string
 -
 
