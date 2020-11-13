@@ -1,35 +1,38 @@
 #include <stdlib.h>
+#include<iostream>
 #include <string>
+#include "vector"
+
 
 int main() {
-    char buf[100];
-    char dumi[10][24]; // 10 reda po 23 simvolva
-    int i, m = 0;
+    char izrechenie[100]; // Dumata
+    char dumi[20][16];
+    int i, m = 0,c = 0;
 
-    std::printf("Enter the sentence: \n");
-    gets_s(buf);
-
+    printf("Enter sentence: \n");
+    gets_s(izrechenie);
     i = 0;
     do {
-        /**
-         * sscanf vzima purviq string ot izrechenieto
-         * Primer: Zdravei kak si
-         * Otgovor: Zdravei
-         */
-        sscanf(buf + i, "%s", dumi[m]);
+        sscanf(izrechenie + i, "%s", dumi[m]);
         i += strlen(dumi[m++]) + 1;
-    } while (i < strlen(buf));
-    int maxLength = 0;
+    } while (i < strlen(izrechenie));
+
     for (int j = 0; j < m; ++j) {
-        if (strlen(dumi[j]) > maxLength) {
-            maxLength = strlen(dumi[j]);
+        int z = 0;
+        int h = strlen(dumi[j]) - 1;
+        bool s = true;
+        while (h > z) {
+            if (dumi[j][z++] != dumi[j][h--]) {
+                s = false;
+                break;
+            }
+        }
+        if (s) {
+            c++;
         }
     }
-    for (int j = 0; j < m; ++j) {
-        if (strlen(dumi[j]) == maxLength)
-            printf("%s", dumi[j]);
-    }
 
+    printf("Polindromni dumi v izrechenie: %d", c);
 
     return 0;
 }
