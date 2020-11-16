@@ -1,38 +1,26 @@
-#include <stdlib.h>
 #include<iostream>
-#include <string>
-#include "vector"
+
+
+int liceNaPrvTrg(int a, int b) {
+    return (a * b / 2);
+}
 
 
 int main() {
-    char izrechenie[100]; // Dumata
-    char dumi[20][16];
-    int i, m = 0,c = 0;
+    const int n = 5;
+    int a[n], b[n];
 
-    printf("Enter sentence: \n");
-    gets_s(izrechenie);
-    i = 0;
-    do {
-        sscanf(izrechenie + i, "%s", dumi[m]);
-        i += strlen(dumi[m++]) + 1;
-    } while (i < strlen(izrechenie));
-
-    for (int j = 0; j < m; ++j) {
-        int z = 0;
-        int h = strlen(dumi[j]) - 1;
-        bool s = true;
-        while (h > z) {
-            if (dumi[j][z++] != dumi[j][h--]) {
-                s = false;
-                break;
-            }
-        }
-        if (s) {
-            c++;
-        }
+    for (int i = 0; i < n; ++i) {
+        std::cout << "A=";
+        std::cin >> a[i];
+        std::cout << "B=";
+        std::cin >> b[i];
     }
 
-    printf("Polindromni dumi v izrechenie: %d", c);
+    for (int i = 0; i < n; ++i) {
+        std::cout << i << ". " << liceNaPrvTrg(a[i], b[i]) << std::endl;
+    }
+
 
     return 0;
 }
